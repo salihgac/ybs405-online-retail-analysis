@@ -1,0 +1,8 @@
+step,rows
+Raw data (2 sheets merged),1067371
+Exact duplicate rows removed,1033036
+Cancellation invoices separated,1013932
+Non-positive quantity removed,1010539
+Non-positive price removed,1007913
+Non-product stock codes removed,1003417
+  of which with Customer ID (used for customer analysis),776579

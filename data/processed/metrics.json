@@ -1,0 +1,132 @@
+{
+  "overview": {
+    "rows_clean": 1003417,
+    "date_min": "2009-12-01",
+    "date_max": "2011-12-09",
+    "total_revenue": 19645617.79,
+    "n_invoices": 39516,
+    "n_customers": 5852,
+    "n_products": 4731,
+    "n_countries": 43,
+    "avg_order_value": 497.15603274622936,
+    "median_order_value": 301.23,
+    "guest_revenue_share": 0.13117607690157554
+  },
+  "trend": {
+    "peak_month": "2011-11",
+    "peak_month_revenue": 1452115.98,
+    "low_month": "2011-02",
+    "low_month_revenue": 507866.54,
+    "sep_nov_share": 0.36663031105264715
+  },
+  "yoy": {
+    "rev_2010_jan_nov": 8599594.13,
+    "rev_2011_jan_nov": 8857690.93,
+    "yoy_growth": 0.030012672237590632
+  },
+  "products": {
+    "top_product_revenue_name": "Regency Cakestand 3 Tier",
+    "top_product_revenue": 330590.32,
+    "top_product_qty_name": "World War 2 Gliders Asstd Designs",
+    "top100_products_revenue_share": 0.2945481929789697,
+    "n_products": 4731
+  },
+  "countries": {
+    "uk_revenue_share": 0.8552938227553697,
+    "top_intl_countries": [
+      "EIRE",
+      "Netherlands",
+      "Germany"
+    ]
+  },
+  "timing": {
+    "busiest_day": "Thursday",
+    "busiest_hour": 12,
+    "saturday_orders": 30
+  },
+  "cancellations": {
+    "cancel_invoices": 8292,
+    "cancel_rate": 0.1734437751004016,
+    "cancel_value": 1462050.61
+  },
+  "rfm": {
+    "rfm_segments": {
+      "Champions": {
+        "customers": 1316,
+        "cust_share": 0.22488038277511962,
+        "rev_share": 0.6884480002098263
+      },
+      "Loyal Customers": {
+        "customers": 1198,
+        "cust_share": 0.20471633629528366,
+        "rev_share": 0.15769400155562532
+      },
+      "New / Promising": {
+        "customers": 562,
+        "cust_share": 0.09603554340396446,
+        "rev_share": 0.013581144011938207
+      },
+      "At Risk": {
+        "customers": 682,
+        "cust_share": 0.11654135338345864,
+        "rev_share": 0.09602751364232776
+      },
+      "Need Attention": {
+        "customers": 440,
+        "cust_share": 0.07518796992481203,
+        "rev_share": 0.01060850118433266
+      },
+      "Hibernating / Lost": {
+        "customers": 1654,
+        "cust_share": 0.2826384142173616,
+        "rev_share": 0.03364083939594956
+      }
+    },
+    "top20_customer_revenue_share": 0.7715083434882869,
+    "median_recency_days": 95.0,
+    "one_time_buyer_share": 0.27648667122351334
+  },
+  "cohort": {
+    "first_cohort_m1_retention": 0.3501577287066246,
+    "first_cohort_m12_retention": 0.3764458464773922,
+    "avg_m1_retention_other_cohorts": 0.18933379350608595
+  },
+  "orders": {
+    "median_items_per_order": 15.0,
+    "orders_over_1000_share": 0.08637007794311165
+  },
+  "price": {
+    "price_qty_log_corr": -0.36327644560366057,
+    "price_elasticity_slope": -0.7759544077215355
+  },
+  "cleaning_log": [
+    {
+      "step": "Raw data (2 sheets merged)",
+      "rows": 1067371
+    },
+    {
+      "step": "Exact duplicate rows removed",
+      "rows": 1033036
+    },
+    {
+      "step": "Cancellation invoices separated",
+      "rows": 1013932
+    },
+    {
+      "step": "Non-positive quantity removed",
+      "rows": 1010539
+    },
+    {
+      "step": "Non-positive price removed",
+      "rows": 1007913
+    },
+    {
+      "step": "Non-product stock codes removed",
+      "rows": 1003417
+    },
+    {
+      "step": "  of which with Customer ID (used for customer analysis)",
+      "rows": 776579
+    }
+  ]
+}

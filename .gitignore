@@ -1,0 +1,14 @@
+# raw data is downloaded from UCI (see README), too large for git
+data/raw/
+*.parquet
+
+# local / personal files
+Project (1).docx
+reports/
+deliverables/Notlar_TR.md
+~$*.docx
+~$*.pptx
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
